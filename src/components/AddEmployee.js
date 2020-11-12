@@ -71,7 +71,7 @@ class AddEmployee extends Component {
               bg="dark"
               variant="dark"
             >
-              <Navbar.Brand>Add Employee Easily</Navbar.Brand>
+              <Navbar.Brand>Quick Add</Navbar.Brand>
               
               <Navbar.Toggle
                 onClick={() => { this.toggleNavbar(); this.scrollToBottom();}}
@@ -91,11 +91,11 @@ class AddEmployee extends Component {
                         controlId="name"
                       >
                         <Form.Text className="text-muted">
-                          Enter the name please.
+                          Who's the Newbie.
                         </Form.Text>
                         <Form.Control
                           type="name"
-                          placeholder="Gandalf the Grey"
+                          placeholder="Noobie chuckles"
                         />
                       </Form.Group>
                       <Form.Group
@@ -104,9 +104,9 @@ class AddEmployee extends Component {
                         controlId="jobTitle"
                       >
                         <Form.Text className="text-muted">
-                          Enter the job please.
+                          Where is he Joined?
                         </Form.Text>
-                        <Form.Control type="name" placeholder="White Wizard" />
+                        <Form.Control type="name" placeholder="Jobber Canteen" />
                       </Form.Group>
                       <Form.Group
                         value={this.state.salary}
@@ -114,12 +114,12 @@ class AddEmployee extends Component {
                         controlId="name"
                       >
                         <Form.Text className="text-muted">
-                          Enter the salary please.
+                          How much is the worth.
                         </Form.Text>
                         <Form.Control type="number" placeholder="7000" />
                       </Form.Group>{" "}
                       <Form.Text className="text-muted">
-                        Clik to add user.
+                        Welcome Newbie.
                       </Form.Text>
                       <Button
                         className="btn col-md-3 ml-auto mr-auto"
