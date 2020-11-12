@@ -1,3 +1,11 @@
+# Quick suggestions to use
+
+from homepage goto database$operations to
+1. Add (go to AddEmployee from homepage)
+2. Edit (click on yellow pencil)
+3. Remove(click on red trash can)
+
+After you done with the operations press back in browser to see the updation in database&operations page.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
