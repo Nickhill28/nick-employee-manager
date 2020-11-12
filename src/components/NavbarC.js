@@ -7,7 +7,7 @@ class NavbarC extends Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-        <Navbar.Brand href="https://baranacikgoz.github.io/Employee-Management-App/">Employee Managent App</Navbar.Brand>
+        <Navbar.Brand href="https://hinick.me/">Employee Managent App</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
